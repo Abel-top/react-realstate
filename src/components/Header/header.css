@@ -37,6 +37,9 @@
 }
 
 @media screen and (max-width:750px){
+    .h-wrapper{
+        position:static;
+    }
     .menu-icon{
         display: block;
         position:absolute;
