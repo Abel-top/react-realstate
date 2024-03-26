@@ -1,0 +1,35 @@
+.g-wrapper{
+    background: rgb(197, 195, 195);
+    padding: 50px;
+}
+.g-container{
+    background: rgb(59, 59, 148);
+    display: flex;
+    color:white;
+    width: 70%;
+    height: 40vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* box-shadow: 2px 2px 2px blue; */
+    border: 6px solid rgba(64, 64, 136, 0.747);
+}
+.g-container button{
+   width: 100px;
+   height: 30px;
+   border: 2px solid white;
+   margin-top: 20px;
+}
+@media (max-width:800px){
+    .g-container{
+        width: 100%;
+        height: 70%;
+        justify-content: center;
+        font-size: 15px;
+        padding: 10px;
+    }
+}

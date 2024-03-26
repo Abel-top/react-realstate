@@ -1,0 +1,75 @@
+*{
+    scroll-behavior: smooth;
+}
+.r-container{
+    overflow: hidden;
+    position: relative;
+}
+.r-wrapper{
+    background: rgb(221, 224, 230);
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.r-text{
+   display: flex;
+   justify-content: center;
+   color: rgba(68, 189, 118, 0.575);
+   padding-top: 30px;
+   padding-bottom: 30px;
+   
+}
+.r-card{
+    margin:auto ;
+    transition: all 0.2s ease-out;
+    max-width: max-content;
+}
+.r-card img{
+    border-radius: 7px;
+    transition: all 0.2s ease-out;
+}
+.r-card img:hover{
+    scale:1.025;
+    cursor:pointer;
+    background: rgb(197, 195, 195);
+    box-shadow: 1px 1px 1px rgb(116, 114, 114);
+}
+.swiper-horizontal{
+    overflow: visible;
+}
+.r-buttons{
+    position: absolute;
+    top: -2rem;
+    right: 8px;
+    display: flex;
+    margin-bottom: 20px;
+    gap: 3px;
+}
+.r-buttons button{
+    border: none;
+    outline: none;
+    padding: 6px;
+    filter: blur(0.5px);
+    border-radius: 2px;
+    background: rgb(33, 128, 216);
+    color: black;
+    font: bolder;
+    cursor: pointer;
+    transition: all 0.2sec ease-out;
+}
+.r-buttons button:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width:700px) {
+    .r-buttons{
+        position: initial;
+        align-self: center;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 6px;
+    }
+    .r-buttons button{
+        padding: 10px;
+
+    }
+}

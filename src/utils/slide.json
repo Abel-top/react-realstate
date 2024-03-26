@@ -1,0 +1,39 @@
+[
+    {
+        "name":"home1",
+        "price":"4000.34",
+        "desc":"This is home1",
+        "image":"./home-1.jpg"
+
+    }, {
+        "name":"home2",
+        "price":"30000.21",
+        "desc":"This is home2",
+        "image":"./home-2.jpg"
+
+    }, {
+        "name":"home",
+        "price":"4500.55",
+        "desc":"This is home3",
+        "image":"./home-3.jpg"
+
+    }, {
+        "name":"home1",
+        "price":"4300.23",
+        "desc":"This is home1",
+        "image":"./home-1.jpg"
+
+    }, {
+        "name":"home3",
+        "price":"2900.90",
+        "desc":"This is home1",
+        "image":"./home-3.jpg"
+
+    },{
+        "name":"home1",
+        "price":"4000.34",
+        "desc":"This is home1",
+        "image":"./home-1.jpg"
+
+    }
+]
