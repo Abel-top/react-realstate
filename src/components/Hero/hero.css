@@ -76,7 +76,8 @@
         margin: 0;
     }
     .search-bar  {
-        width: 70%;
+        width: 50%;
+        
     }
     .stats{
         gap: 15px;
